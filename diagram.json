@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "author": "CRISTIAN FELIPE PEREZ HURTADO",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 75.5, "left": 316.6, "attrs": {} }
+  ],
+  "connections": [ [ "uno:A0", "pot1:SIG", "green", [ "v19.7", "h108.8" ] ] ],
+  "dependencies": {}
+}
